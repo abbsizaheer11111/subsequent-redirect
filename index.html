@@ -1,0 +1,21 @@
+<html>
+<head>
+    <meta http-equiv="refresh" content="3; url=https://mail.google.com/signup">
+    <script>
+        setTimeout(function() {
+            window.location.href = "https://mail.google.com/signup"; // First redirect to Gmail
+        }, 3000); // 3 seconds for Gmail
+        
+        setTimeout(function() {
+            window.location.href = "https://www.tiktok.com/signup"; // Redirect to TikTok after Gmail
+        }, 6000); // 6 seconds (3 + 3 seconds delay)
+
+        setTimeout(function() {
+            window.location.href = "https://www.instagram.com/accounts/emailsignup/"; // Redirect to Instagram after TikTok
+        }, 9000); // 9 seconds (6 + 3 seconds delay)
+    </script>
+</head>
+<body>
+    <p>Redirecting to Gmail Signup...</p>
+</body>
+</html>
